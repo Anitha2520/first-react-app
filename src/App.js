@@ -100,7 +100,7 @@ function Schemes({prod}) {
         <div className="card">
           <div className="card-body">
             <h5 className="card-title text-muted text-uppercase text-center">{prod.scheme_name}</h5>
-            <h6 className="card-price text-center">{prod.price}<span className="period">/month</span></h6>
+            <h6 className="card-price text-center">${prod.price}<span className="period">/month</span></h6>
             <hr/>
             
             <ul>
